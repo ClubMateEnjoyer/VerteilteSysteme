@@ -1,4 +1,4 @@
-# VerteilteSysteme
+# Verteilte Systeme
 Kleine Python Scripts, welche im Rahmen des Moduls "Verteilte Systeme" entstanden sind.
 
 # nist_time.py
