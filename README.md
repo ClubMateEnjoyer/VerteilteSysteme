@@ -2,7 +2,22 @@
 Kleine Python Scripts, welche im Rahmen des Moduls "Verteilte Systeme" entstanden sind.
 
 # nist_time.py
-Implementation des RFC 868 mit UDP
+  - Umsetzung des RFC 868 Time Protocol
+  - Kommunikation über UDP
+  - Umrechnung des Zeitstempels in in lesbares Datum
+
+  - ## Nutzung
+    - python nist_time.py <SERVER>
+    - Bsp.: python nist_time.py time.nist.gov
 
 # downloader.py 
-Ein Programm, welches eine beliebige Datei aus dem World Wide Web via unverschlüsselten HTTP in Blöcken herunterladen kann. 
+  - Download von Dateinen über HTTP
+  - Blockweiser Download mit frei wählbarer Blöckgröße
+  - Unterstützung von "resume" nach Abbruch
+  - Nutzung von HTTP Range Request
+
+  - ## Nutzung
+    - python downloader.py <BLOCKSIZE> <URL>
+    - Bsp.: python downloader.py 1M http://example.com/file.bin
+   
+
