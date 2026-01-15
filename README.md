@@ -7,6 +7,7 @@ Kleine Python Scripts, welche im Rahmen des Moduls "Verteilte Systeme" entstande
   - Umrechnung des Zeitstempels in in lesbares Datum
 
   - ## Nutzung
+    ```bash
     - python nist_time.py <SERVER>
     - Bsp.: python nist_time.py time.nist.gov
 
@@ -17,6 +18,7 @@ Kleine Python Scripts, welche im Rahmen des Moduls "Verteilte Systeme" entstande
   - Nutzung von HTTP Range Request
 
   - ## Nutzung
+     ```bash
     - python downloader.py <BLOCKSIZE> <URL>
     - Bsp.: python downloader.py 1M http://example.com/file.bin
    
