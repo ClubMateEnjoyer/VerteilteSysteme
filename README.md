@@ -8,8 +8,8 @@ Kleine Python Scripts, welche im Rahmen des Moduls "Verteilte Systeme" entstande
 
   - ## Nutzung
     ```bash
-    - python nist_time.py <SERVER>
-    - Bsp.: python nist_time.py time.nist.gov
+    python nist_time.py <SERVER>
+    python nist_time.py time.nist.gov
 
 # downloader.py 
   - Download von Dateinen über HTTP
@@ -19,7 +19,7 @@ Kleine Python Scripts, welche im Rahmen des Moduls "Verteilte Systeme" entstande
 
   - ## Nutzung
      ```bash
-    - python downloader.py <BLOCKSIZE> <URL>
-    - Bsp.: python downloader.py 1M http://example.com/file.bin
+    python downloader.py <BLOCKSIZE> <URL>
+    python downloader.py 1M http://example.com/file.bin
    
 
